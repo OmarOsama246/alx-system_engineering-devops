@@ -1,4 +1,2 @@
 #!/bin/bash
-EUID=$(id -u)
-USERNAME=$(getpwuid $EUID | cut -d: -f1)
 echo $USERNAME
